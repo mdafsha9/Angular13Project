@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EventsBoxComponent } from './events-box/events-box.component';
+import { InputValuesComponent } from './input-values/input-values.component';
 
 
 
 @NgModule({
   declarations: [
-    EventsBoxComponent
+    EventsBoxComponent,
+    InputValuesComponent
   ],
   imports: [
     CommonModule
