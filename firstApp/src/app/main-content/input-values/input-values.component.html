@@ -1,1 +1,7 @@
-<p>input-values works!</p>
+<div class="fieldValues">
+  <h2>Get input field value</h2>
+  <p>To show the output open browser console.</p>
+  <input type="text" #box placeholder="Enter name" (keyup)="getValue(box.value)">
+  <h3>Box value is : {{displayValue}}</h3>
+  <p><strong>Note :</strong>We can do the same functionality with Two-way-data binding.</p>
+</div>
