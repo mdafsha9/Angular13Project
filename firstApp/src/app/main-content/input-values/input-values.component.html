@@ -1,7 +1,12 @@
 <div class="fieldValues">
   <h2>Get input field value</h2>
   <p>To show the output open browser console.</p>
-  <input type="text" #box placeholder="Enter name" (keyup)="getValue(box.value)">
-  <h3>Box value is : {{displayValue}}</h3>
+  <input type="text" #box placeholder="Enter name" (keyup)="getValue(box.value)"><br><br>
+  <p>Box value is : {{displayValue}}</p>
+  <h3>with submit button</h3>
+  <div  class="inli">
+    <input type="text" #box1 placeholder="Enter name">
+    <button (click)="getValue(box1.value)">Submit</button>
+  </div><br>
   <p><strong>Note :</strong>We can do the same functionality with Two-way-data binding.</p>
 </div>
