@@ -14,7 +14,8 @@ import { InputValuesComponent } from './input-values/input-values.component';
     CommonModule
   ],
   exports:[
-    EventsBoxComponent
+    EventsBoxComponent,
+    InputValuesComponent
   ]
 })
 export class MainContentModule { }
