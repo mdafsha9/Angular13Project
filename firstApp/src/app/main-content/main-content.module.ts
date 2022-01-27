@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { EventsBoxComponent } from './events-box/events-box.component';
 import { InputValuesComponent } from './input-values/input-values.component';
 import { CounterComponent } from './counter/counter.component';
+import { PropBindComponent } from './prop-bind/prop-bind.component';
 
 
 
@@ -10,7 +11,8 @@ import { CounterComponent } from './counter/counter.component';
   declarations: [
     EventsBoxComponent,
     InputValuesComponent,
-    CounterComponent
+    CounterComponent,
+    PropBindComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { CounterComponent } from './counter/counter.component';
   exports:[
     EventsBoxComponent,
     InputValuesComponent,
-    CounterComponent
+    CounterComponent,
+    PropBindComponent
   ]
 })
 export class MainContentModule { }
