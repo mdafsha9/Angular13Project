@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class PropBindComponent implements OnInit {
   itemImageUrl = "./assets/images/angular.png";
   isUnchanged = true; //true or false totoggle the button
+  className = 'one';
+  className1 = 'two';
   constructor() { }
 
   ngOnInit(): void {

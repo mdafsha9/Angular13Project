@@ -2,7 +2,12 @@
   <h2>Property Binding</h2>
   <h3>Binding to a property</h3>
   <p>setting element property to component property</p>
-  <img [src]="itemImageUrl">
+  <img [src]="itemImageUrl" width="100px" height="auto">
   <h3>Toggle button functionality</h3>
-  <button [disabled]="isUnchanged">Disabled Button</button>
+  <button [disabled]="isUnchanged">Disabled Button</button><br><br>
+  <h3>Setting a directive property</h3>
+  <p [ngClass] = "className">dynamic binding</p>
+  <p [ngClass]="[className, className1]">Dynamic binding with an array</p>
+  <p [ngClass]= "{'one':true, 'two':false}">Dynamic binding with an expression</p>
+
 </div>
