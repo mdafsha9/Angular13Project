@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prop-bind.component.scss']
 })
 export class PropBindComponent implements OnInit {
-
+  itemImageUrl = "./assets/images/angular.png";
+  isUnchanged = true; //true or false totoggle the button
   constructor() { }
 
   ngOnInit(): void {
