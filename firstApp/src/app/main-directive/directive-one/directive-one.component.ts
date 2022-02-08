@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./directive-one.component.scss']
 })
 export class DirectiveOneComponent implements OnInit {
-
+  message = true;
   constructor() { }
 
   ngOnInit(): void {
