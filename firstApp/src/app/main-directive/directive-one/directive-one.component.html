@@ -1,6 +1,12 @@
 <div class="allStyle">
   <h2>Structural Directives</h2>
-  <h3>*ngIf directive</h3>
+  <p><b>*ngIf directive</b></p>
+  <p *ngIf = "goodMessage">Hello All!</p>
+  <p><b>*ngIf directive with else statement</b></p>
   <p *ngIf = "message; else showMessage">User successfully register!</p>
   <ng-template #showMessage>User not register successfully!</ng-template>
+  <p><b>*ngIf directive with then and else</b></p>
+  <p *ngIf = "morningMessage; then shownMessage; else displayMessage"></p>
+  <ng-template #shownMessage>Have a great day!</ng-template>
+  <ng-template #displayMessage>Have a nice day!</ng-template>
 </div>
