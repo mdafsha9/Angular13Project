@@ -1,5 +1,6 @@
 <div class="allStyle">
   <h2>Structural Directives</h2>
   <h3>*ngIf directive</h3>
-  <p *ngIf = "message">User successfully register!</p>
+  <p *ngIf = "message; else showMessage">User successfully register!</p>
+  <ng-template #showMessage>User not register successfully!</ng-template>
 </div>
