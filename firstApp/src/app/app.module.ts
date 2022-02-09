@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DirectiveOneComponent } from './main-directive/directive-one/directive-one.component';
+import { DirectiveTwoComponent } from './main-directive/directive-two/directive-two.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    DirectiveOneComponent
+    DirectiveOneComponent,
+    DirectiveTwoComponent
   ],
   imports: [
     BrowserModule,
