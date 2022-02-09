@@ -15,11 +15,12 @@ export class DirectiveOneComponent implements OnInit {
     'age' : 25},
     {'firstName' : 'Marie',
     'lastName' : 'Low',
-    'age' : 30}, 
+    'age' : 30},
     {'firstName' : 'Royal',
     'lastName' : 'Roy',
     'age' : 28}
-  ]
+  ];
+  day = 2;
   constructor() { }
 
   ngOnInit(): void {

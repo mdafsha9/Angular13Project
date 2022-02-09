@@ -14,4 +14,16 @@
   <ul style="list-style-type:none;">
     <li *ngFor="let contact of contacts">{{contact.firstName}}</li>
   </ul>
+
+  <p><b>ngSwitch directive</b></p>
+  <div [ngSwitch] = "day">
+    <div *ngSwitchCase="0">Sunday!</div>
+    <div *ngSwitchCase="1">Monday!</div>
+    <div *ngSwitchCase="2">Tuesday!</div>
+    <div *ngSwitchCase="3">Wednesday!</div>
+    <div *ngSwitchCase="4">Thrusday!</div>
+    <div *ngSwitchCase="5">Friday!</div>
+    <div *ngSwitchCase="6">Saturday!</div>
+    <div *ngSwitchDefault>Invalid Day!</div>
+  </div>
 </div>
