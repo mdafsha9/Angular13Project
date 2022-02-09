@@ -1,3 +1,9 @@
 <div class="allStyle">
   <h2>Attribute directive</h2>
+  <p><b>Basic use of ngStyle</b><br>setting a value using ngStyle</p>
+  <p [ngStyle]="{'background-color': 'tomato', 'color': 'white'}">Static style</p>
+  <p><b>Dynamic value from component</b></p>
+  <p [ngStyle]="{'background-color': styleProp}">Dynamic style</p>
+  <p><b>ngStyle with conditional operator</b></p>
+  <p [ngStyle]="{'color': txtcolor === 'aqua' ? 'aqua': 'BurlyWood'}">Condiitional Operator</p>
 </div>

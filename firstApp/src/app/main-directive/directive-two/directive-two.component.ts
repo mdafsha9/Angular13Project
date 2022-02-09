@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./directive-two.component.scss']
 })
 export class DirectiveTwoComponent implements OnInit {
-
+  styleProp = "aquamarine";
+  txtcolor = "red";
   constructor() { }
 
   ngOnInit(): void {
