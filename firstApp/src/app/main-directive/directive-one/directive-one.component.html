@@ -9,4 +9,9 @@
   <p *ngIf = "morningMessage; then shownMessage; else displayMessage"></p>
   <ng-template #shownMessage>Have a great day!</ng-template>
   <ng-template #displayMessage>Have a nice day!</ng-template>
+
+  <p><b>*ngFor directive</b></p>
+  <ul style="list-style-type:none;">
+    <li *ngFor="let contact of contacts">{{contact.firstName}}</li>
+  </ul>
 </div>
