@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DirectiveOneComponent } from './main-directive/directive-one/directive-one.component';
 import { DirectiveTwoComponent } from './main-directive/directive-two/directive-two.component';
+import { PractiseComponent } from './practise/practise.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DirectiveTwoComponent } from './main-directive/directive-two/directive-
     HeaderComponent,
     FooterComponent,
     DirectiveOneComponent,
-    DirectiveTwoComponent
+    DirectiveTwoComponent,
+    PractiseComponent
   ],
   imports: [
     BrowserModule,
