@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./practise.component.scss']
 })
 export class PractiseComponent implements OnInit {
-
+    stylePro1 = "brown";
   constructor() { }
 
   ngOnInit(): void {
