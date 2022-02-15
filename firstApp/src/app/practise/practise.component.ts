@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-practise',
@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./practise.component.scss']
 })
 export class PractiseComponent implements OnInit {
-    className = "c1";
-    className1 = "c2";
+  @Input() praChild:any;
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
