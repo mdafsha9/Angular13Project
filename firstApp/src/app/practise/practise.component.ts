@@ -6,7 +6,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./practise.component.scss']
 })
 export class PractiseComponent implements OnInit {
-
+  username = "Brucely ";
   constructor() { }
 
   ngOnInit(): void {
