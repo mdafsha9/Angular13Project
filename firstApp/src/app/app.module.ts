@@ -15,6 +15,7 @@ import {FormsModule} from '@angular/forms';
 import { ChildComponentComponent } from './child-component/child-component.component';
 import { ChildOneComponent } from './child-one/child-one.component';
 import { ParentOneComponent } from './parent-one/parent-one.component';
+import { MyPipesComponent } from './my-pipes/my-pipes.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ParentOneComponent } from './parent-one/parent-one.component';
     PractiseComponent,
     ChildComponentComponent,
     ChildOneComponent,
-    ParentOneComponent
+    ParentOneComponent,
+    MyPipesComponent
   ],
   imports: [
     FormsModule,
