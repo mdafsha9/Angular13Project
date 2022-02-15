@@ -11,6 +11,7 @@ import { DirectiveTwoComponent } from './main-directive/directive-two/directive-
 import { PractiseComponent } from './practise/practise.component';
 import { ChildComponentComponent } from './child-component/child-component.component';
 import { ChildOneComponent } from './child-one/child-one.component';
+import { ParentOneComponent } from './parent-one/parent-one.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ChildOneComponent } from './child-one/child-one.component';
     DirectiveTwoComponent,
     PractiseComponent,
     ChildComponentComponent,
-    ChildOneComponent
+    ChildOneComponent,
+    ParentOneComponent
   ],
   imports: [
     BrowserModule,
