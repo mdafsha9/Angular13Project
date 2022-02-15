@@ -12,5 +12,5 @@ export class AppComponent {
      age :25,
      emailId :'bruce@gmail.com'
    }
-   myData:any = "Afsha";
+   
 }

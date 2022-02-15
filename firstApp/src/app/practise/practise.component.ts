@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-practise',
@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./practise.component.scss']
 })
 export class PractiseComponent implements OnInit {
-  @Input() praChild:any;
+
   constructor() { }
 
   ngOnInit(): void {

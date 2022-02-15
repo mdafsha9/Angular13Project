@@ -10,6 +10,7 @@ import { DirectiveOneComponent } from './main-directive/directive-one/directive-
 import { DirectiveTwoComponent } from './main-directive/directive-two/directive-two.component';
 import { PractiseComponent } from './practise/practise.component';
 import { ChildComponentComponent } from './child-component/child-component.component';
+import { ChildOneComponent } from './child-one/child-one.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ChildComponentComponent } from './child-component/child-component.compo
     DirectiveOneComponent,
     DirectiveTwoComponent,
     PractiseComponent,
-    ChildComponentComponent
+    ChildComponentComponent,
+    ChildOneComponent
   ],
   imports: [
     BrowserModule,
