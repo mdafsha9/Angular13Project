@@ -16,7 +16,7 @@ import { ChildComponentComponent } from './child-component/child-component.compo
 import { ChildOneComponent } from './child-one/child-one.component';
 import { ParentOneComponent } from './parent-one/parent-one.component';
 import { MyPipesComponent } from './my-pipes/my-pipes.component';
-
+import {LocationStrategy, HashLocationStrategy} from '@angular/common'
 
 @NgModule({
   declarations: [
@@ -37,7 +37,9 @@ import { MyPipesComponent } from './my-pipes/my-pipes.component';
     MainContentModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    {provide:LocationStrategy, useClass:HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

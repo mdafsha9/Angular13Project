@@ -1,9 +1,25 @@
-<div class="allStyle">
+<div class="allStyle" id="builtPipes">
   <h2>Buit-in Pipes</h2>
   <p>{{lowercaseExample | lowercase}}</p>
   <p>{{uppercaseExample | uppercase}}</p>
   <p>{{dateExample | date}}</p>
   <p>{{currencyExample | currency}}</p>
   <p>{{percentExample | percent}}</p>
-  <p>{{jsonExample | json}}</p>
+  <p>{{jsonExample | json}}</p>2
+  <h2>Chaining Pipes</h2>
+  <p>{{dateExample | date | uppercase}}</p>
+  <p>{{currencyExample | currency: 'CAD' | lowercase}}</p>
+</div>
+<div class="allStyle" id="paraPipes">
+  <h2>Parameterized pipes</h2>
+  <h3>For currency</h3>
+  <p>{{currencyExample | currency : 'CAD'}}</p>
+  <p>{{currencyExample | currency : 'INR'}}</p>
+  <p>{{currencyExample | currency : 'EUR'}}</p>
+
+  <h3>For date</h3>
+  <p>{{dateExample | date : 'MM-dd-yyyy'}}</p>
+  <p>{{dateExample | date : 'MMM-dd-yyyy'}}</p>
+  <p>{{dateExample | date : 'short'}}</p>
+  <p>{{dateExample | date : 'long'}}</p>
 </div>
