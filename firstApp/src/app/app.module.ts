@@ -16,7 +16,8 @@ import { ChildComponentComponent } from './child-component/child-component.compo
 import { ChildOneComponent } from './child-one/child-one.component';
 import { ParentOneComponent } from './parent-one/parent-one.component';
 import { MyPipesComponent } from './my-pipes/my-pipes.component';
-import {LocationStrategy, HashLocationStrategy} from '@angular/common'
+import {LocationStrategy, HashLocationStrategy} from '@angular/common';
+import { SignInComponent } from './sign-in/sign-in.component'
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {LocationStrategy, HashLocationStrategy} from '@angular/common'
     ChildComponentComponent,
     ChildOneComponent,
     ParentOneComponent,
-    MyPipesComponent
+    MyPipesComponent,
+    SignInComponent
   ],
   imports: [
     FormsModule,
