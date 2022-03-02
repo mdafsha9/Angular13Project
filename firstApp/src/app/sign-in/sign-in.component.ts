@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SignInComponent implements OnInit {
 
   constructor() { }
-
+  topics = ["Angular", "Vue", "React"];
   ngOnInit(): void {
   }
 
